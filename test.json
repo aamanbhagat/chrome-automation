@@ -1,0 +1,56 @@
+{
+    "title": "test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1368,
+            "height": 217,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://new-tab-page/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://new-tab-page/",
+                    "title": "New Tab"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.google.com/search?q=helo+i+am+musk&oq=helo+i+am+musk&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABgPGBYYHjIICAIQABgWGB4yCAgDEAAYFhge0gEINTQ3N2owajeoAgiwAgE&sourceid=chrome&ie=UTF-8",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.google.com/search?q=helo+i+am+musk&oq=helo+i+am+musk&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABgPGBYYHjIICAIQABgWGB4yCAgDEAAYFhge0gEINTQ3N2owajeoAgiwAgE&sourceid=chrome&ie=UTF-8",
+                    "title": "helo i am musk - Google Search"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/hello i am musk"
+                ],
+                [
+                    "#fprsl"
+                ],
+                [
+                    "xpath///*[@id=\"fprsl\"]"
+                ],
+                [
+                    "pierce/#fprsl"
+                ]
+            ],
+            "offsetY": 8,
+            "offsetX": 82.46875
+        }
+    ]
+}
