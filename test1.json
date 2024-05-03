@@ -1,0 +1,322 @@
+{
+    "title": "test1",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1216,
+            "height": 189,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&prerender=1&PC=U531",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&prerender=1&PC=U531",
+                    "title": "New tab"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=151&checkda=1&ct=1714739823&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3A%2F%2Fsignup.live.com%2F%3Flic%3D1&lc=1033&id=68692&mkt=en-US&uaid=e61ab8983c2f44b795225f7f314a7dda",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=151&checkda=1&ct=1714739823&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3A%2F%2Fsignup.live.com%2F%3Flic%3D1&lc=1033&id=68692&mkt=en-US&uaid=e61ab8983c2f44b795225f7f314a7dda",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Get a new email address"
+                ],
+                [
+                    "#liveSwitch"
+                ],
+                [
+                    "xpath///*[@id=\"liveSwitch\"]"
+                ],
+                [
+                    "pierce/#liveSwitch"
+                ],
+                [
+                    "text/Get a new email"
+                ]
+            ],
+            "offsetY": 12.197914123535156,
+            "offsetX": 87.66665649414062
+        },
+        {
+            "type": "change",
+            "value": "acnsudcd",
+            "selectors": [
+                [
+                    "aria/New email"
+                ],
+                [
+                    "#MemberName"
+                ],
+                [
+                    "xpath///*[@id=\"MemberName\"]"
+                ],
+                [
+                    "pierce/#MemberName"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "A",
+            "selectors": [
+                [
+                    "aria/Create password"
+                ],
+                [
+                    "#PasswordInput"
+                ],
+                [
+                    "xpath///*[@id=\"PasswordInput\"]"
+                ],
+                [
+                    "pierce/#PasswordInput"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "a",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Andrerussell12@",
+            "selectors": [
+                [
+                    "aria/Create password"
+                ],
+                [
+                    "#PasswordInput"
+                ],
+                [
+                    "xpath///*[@id=\"PasswordInput\"]"
+                ],
+                [
+                    "pierce/#PasswordInput"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "aman",
+            "selectors": [
+                [
+                    "aria/First name"
+                ],
+                [
+                    "#FirstName"
+                ],
+                [
+                    "xpath///*[@id=\"FirstName\"]"
+                ],
+                [
+                    "pierce/#FirstName"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "bhaat",
+            "selectors": [
+                [
+                    "aria/Last name"
+                ],
+                [
+                    "#LastName"
+                ],
+                [
+                    "xpath///*[@id=\"LastName\"]"
+                ],
+                [
+                    "pierce/#LastName"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "html"
+                ],
+                [
+                    "xpath//html"
+                ],
+                [
+                    "pierce/html"
+                ]
+            ],
+            "offsetY": 492.6666717529297,
+            "offsetX": 467,
+            "duration": 374
+        },
+        {
+            "type": "change",
+            "value": "7",
+            "selectors": [
+                [
+                    "aria/Birth month"
+                ],
+                [
+                    "#BirthMonth"
+                ],
+                [
+                    "xpath///*[@id=\"BirthMonth\"]"
+                ],
+                [
+                    "pierce/#BirthMonth"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "html"
+                ],
+                [
+                    "xpath//html"
+                ],
+                [
+                    "pierce/html"
+                ]
+            ],
+            "offsetY": 546.6666717529297,
+            "offsetX": 632,
+            "duration": 402.29999999701977
+        },
+        {
+            "type": "change",
+            "value": "10",
+            "selectors": [
+                [
+                    "aria/Birth day"
+                ],
+                [
+                    "#BirthDay"
+                ],
+                [
+                    "xpath///*[@id=\"BirthDay\"]"
+                ],
+                [
+                    "pierce/#BirthDay"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Birth year"
+                ],
+                [
+                    "#BirthYear"
+                ],
+                [
+                    "xpath///*[@id=\"BirthYear\"]"
+                ],
+                [
+                    "pierce/#BirthYear"
+                ]
+            ],
+            "offsetY": 18.427082061767578,
+            "offsetX": 34.3541259765625
+        },
+        {
+            "type": "change",
+            "value": "2001",
+            "selectors": [
+                [
+                    "aria/Birth year"
+                ],
+                [
+                    "#BirthYear"
+                ],
+                [
+                    "xpath///*[@id=\"BirthYear\"]"
+                ],
+                [
+                    "pierce/#BirthYear"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Enter"
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "main"
+        }
+    ]
+}
